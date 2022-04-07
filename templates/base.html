@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} {% endblock%}</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
-</head>
-<body>
-    <div>
-        <h1>Welcome to Software Design</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+        <title>Vertical Tank Maintenance</title>
+    </head>   
+
+    <body>
+        <h1> About me </h1>
+        <img src="MacintoshHD/Users/ecriz/Downloads/above_ground_vertical_tanks.jpg" width="250" height="325" alt="Headshot"/>
+        <p> I am a senior at the University of Iowa graduating in May 
+            with a Major in Business Analytics and a minor in Sport and 
+            Recreation Management. I'm from Arlington Heights Illinois 
+            and hope to pursue a career in Business Analytics with a 
+            emphasis in Real Estate.
+        </p>
         <hr>
-        <br>
-        
-        {% block body %}
-
-        {% endblock %}
-
-    </div>
-</body>
+        <h2> Things I like to do</h2>
+        <ul> <li>Golf</li>
+             <li>Basketball</li>
+             <li>Tennis</li>
+             <li>Soccer</li>
+             <li>Hanging with friends</li>
+             <li>Playing with my dogs</li>
+        </ul>
+        <img src="C:/Users/CriswellEric/Downloads/Dogs.jpg" width="200" height="300" alt="Dogs"/>
+        <hr>
+        <h3>Quote of the Day!</h3>
+        <p>
+            "Sometimes you will never know the VALUE of a moment, until it becomes a MEMORY"
+        </p>
+        <hr>
+        <a href="Schedule.html">Eric's Schedule</a>
+    </body>
 </html>
