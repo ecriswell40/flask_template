@@ -2,6 +2,9 @@ body{
     background-color: whitesmoke;
 }
 
-h1{
+header{
+    background-color: darkgray;
+}
+footer{
     background-color: darkgray;
 }
