@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/stylesheet.css">
-    </head>   
-    <body>
-        
-            <h1>Vertical Tank Maintenance</h1>
-            <br>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/estimate">Estimate</a>
-            
+
+            {% extends 'base.html' %} {% block body%}
             <h2>About Vertical Tank Maintenance</h2>
 
             <hr>
@@ -73,8 +59,5 @@
             auctor urna nunc id cursus metus. Est lorem ipsum dolor sit amet 
             consectetur adipiscing elit pellentesque. Mauris cursus mattis molestie a 
             iaculis at erat.</p> 
-            
-        <p>&copy VTM 2020</p>    
-            
-    </body>
-</html>
+        {% endblock%}    
+       
