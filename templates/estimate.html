@@ -3,13 +3,14 @@
         <h2>VTM Estimator</h2>
         <hr>
        <form action="/calculate_cost" method="POST">
-           <label for="Height">Tank Height:</label>
-           <input type="text" id="Height" name="Height" />
-           <br />
-           <label for="Radius">Tank Radius:</label>
+           <label for="Radius">Tank Height:</label>
            <input type="text" id="Radius" name="Radius" />
+           <br />
+           <label for="Height">Tank Radius:</label>
+           <input type="text" id="Height" name="Height" />
            <br>
            <input type="Submit" id="Submit" value="Submit" />
+           <input type="Clear" id="Clear" value="Clear" />
        </form>
 
        {%endblock%}
