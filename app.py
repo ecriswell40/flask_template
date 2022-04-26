@@ -15,8 +15,8 @@ def about():
 def estimate():
     if request.method == 'POST':
         form = request.form
-        radius = float (form['radius'])
-        height = float (form['height'])
+        radius = float(form['radius'])
+        height = float(form['height'])
         pi = 3.14
         labor_cost = 15
         material_cost = 25
@@ -28,7 +28,7 @@ def estimate():
 
         total_material_cost = total_sqft * material_cost
         total_labor_cost = total_sqft * labor_cost
-        
+
         estimate = total_material_cost + total_labor_cost
         return render_template('estimate.html', data=estimate)
     return render_template('estimate.html')
