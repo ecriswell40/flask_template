@@ -27,7 +27,7 @@ def estimate():
     total_material_cost = total_sqft * material_cost
     total_labor_cost = total_sqft * labor_cost
     estimate = total_material_cost + total_labor_cost
-        return render_template('estimate.html', data=estimate)
+    return render_template('estimate.html', data=estimate)
     return render_template('estimate.html')
 
 if __name__ == '__main__':
