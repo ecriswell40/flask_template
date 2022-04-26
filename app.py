@@ -22,7 +22,7 @@ def estimate():
         material_cost = 25
 
         area_of_tank_top = pi * radius
-        area_of_tank_sides = 2(pi(radius * height))
+        area_of_tank_sides = 2 * (pi * (radius * height))
         total_area = area_of_tank_top + area_of_tank_sides
         total_sqft = total_area/144
 
